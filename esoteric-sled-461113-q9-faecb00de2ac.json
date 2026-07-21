@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "esoteric-sled-461113-q9",
+  "private_key_id": "faecb00de2acfe532a9033a9a1b6432d75911105",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDCdQKjO29bn930\np326TqS+MW5XuzDbKD0l0wyEHHUNUPMsNMY7J2e3WooiACiCkFFkEFMCocVTIBYU\nfZeF8mybu8ZgC/J0jDpFeKXfuN0rwKRFYR/PAiNl93vrpFLN+8EYIr8MF+dActoA\nn8f4oC0EfnbtToIStT9M8eHzI0OcI5PiGRZHLvj7C8dWJzDydcUGY6A5sAw0015q\nxvNOc4IH8RhFP7GT6BMEjJxBrbmQgPE3+700pU71f6Ur7/O8rm2athChUGH0J6f1\nZs1vrOWoqNz48HR5B/Ag5UVmQQ/15ikgOLiTzWQjdSed+RlWLvP1DZOfgUh+5rMD\nBIK6O3xfAgMBAAECggEAPK5M42kxp9LsbWMy7ceKyzsbps7oQQt+gWYpmrRSppQj\nPiE91snGKMZdIp0QByZH78TUUpbuv7DckwpaFVeAItzm26P+xfXYXUN356eFhRi5\nalkTlwKgzzn6dp8xo8uzBvgYzApNhKQSeW1i9qftRGC+dfEwz+u1VCqLCtdvSrKX\nDr+mSJWq/3gBN2CMDS+yGQraYPzh/pHD8GTwFuWfcJIVtQZ/W8PcarjrbBbtpWLT\nwseQg6LW2mAi8l7dfiJeghJFVQGEavq24ocRN7ZRa715saUFnIxOPUT6ggrtg9J3\nCrr9HvW5w+ee7Pe4R/Hrw/E1jZJ7usR/VQx77yeQCQKBgQD+FMNH3mjVxh+tRADo\nSjPLuqXDjJKlUh56cK9t/zUEko85Kwy/Zvt6dvLgZJnDA7dHSb4rK1jAqSNbhqGf\nzvdLqjgb/FKMzZi6+zxR4vK6f1q9kUF93pWpWZhwJuojstj0hkBwPKZWdKHZhRXz\nJEurukx01NKNnROMQkmmLCMCvQKBgQDD7PichfDdoanpfB10Fac9GFtkbtX9DhiW\nfX3yfcBFBrTfgGQix010rrsRFYqCXndbn+m8TmFEPaCUkgslnO19MCjxVhtRrumH\n2yKWTYfyIT67oyI5KlnoOZWQUxZJcm5x4sKSJUV2YsNMCXUXGkoU0igVu0w8nNlr\n6AznJkrbSwKBgDfvoj5EPJgzke23NuvsyhJj+PJgFDjJJ2SVQknZEXb8PQO88oWA\nyoRfg4DbJO7F9qd/GJqwZE2l7t7LePGRwuephcjDd/j/mkwv20u7xuw/9V4eiGiJ\nhDFQRDsMliddzF2o4K7U61nFO4yDvB1XNEGONh7Sa7g5iIAsZ8JpnRuRAoGAc2iH\nGUwckbDEsXAWuWZ32JkcXJCdJC7FdP/+zHQeaYqFyJGMaqATlAPI1UtnB1w12pbb\ny7wvt07F5D4SqtlBW1ifBWm/NeJeVVRTj02kIpBKr6RsaFf2FcC1xQnsOt9ZB2SX\nUBb8T7vlZki73Bv0P0d7rTFiuuF5gQJzd0UrGvkCgYB0+j3YOEfVa5hmN7SsBqHi\nQibEQTKi5M8YkTVQMxWfuWl3Ytc89rSUzAXlLNWq8dhb2PCcljXy/Y62YMREcgjE\n4zGgYsieKbdcTGHfSY63MFY64wGx0u9s+ilwZE5OgoJ0lB9SGVpRgRW1ZRq+cESq\naYYx/FD4iHvD6HmEZvWJnA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "samhitahub-backend@esoteric-sled-461113-q9.iam.gserviceaccount.com",
+  "client_id": "116475603047510737196",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/samhitahub-backend%40esoteric-sled-461113-q9.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
