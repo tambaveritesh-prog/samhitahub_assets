@@ -1,0 +1,26 @@
+# Core web framework
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+
+# Settings / configuration
+pydantic==2.10.4
+pydantic-settings==2.7.1
+
+# ASGI utilities
+python-multipart==0.0.20
+
+# --- Google Drive integration -----------------------------------------
+google-api-python-client==2.157.0
+google-auth==2.37.0
+
+# --- The following are NOT yet used by any code in this stage, but are
+# --- pinned here now since they're known dependencies of features
+# --- planned for upcoming stages (Firestore, AI, OCR).
+# --- Uncomment as each feature is implemented.
+
+# google-cloud-firestore==2.19.0       # Firestore publishing
+# anthropic==0.42.0                    # AI processing
+# pytesseract==0.3.13                  # OCR
+# pypdf==5.1.0                         # PDF extraction
+# celery==5.4.0                        # Background job queue (if adopted)
+# redis==5.2.1                         # Broker/result backend for Celery

@@ -1,0 +1,29 @@
+# Environment
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.venv/
+venv/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+htmlcov/
+.coverage
+
+# Credentials (Google service accounts, Firestore keys, etc.)
+*.json
+!package*.json
+credentials/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store

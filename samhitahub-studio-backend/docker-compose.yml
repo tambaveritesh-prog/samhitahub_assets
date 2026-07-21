@@ -1,0 +1,37 @@
+# Local development orchestration.
+#
+# Usage:
+#   docker compose up --build
+#
+# Mounts the source tree read-write so `uvicorn --reload` picks up code
+# changes without rebuilding the image. NOT intended for production use —
+# see `Dockerfile` for the production image, which copies code in
+# instead of mounting it.
+
+services:
+  api:
+    build:
+      context: .
+      target: builder   # use the builder stage locally: has pip + venv, no
+                          # need for a separate reload-friendly image
+    image: samhitahub-studio-backend:dev
+    command: >
+      uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./app:/build/app
+    env_file:
+      - .env
+    environment:
+      ENVIRONMENT: local
+      DEBUG: "true"
+
+  # Placeholder for a future Redis service backing a Celery/arq task
+  # queue once background job processing is implemented. Left commented
+  # out so `docker compose up` works today without requiring Redis.
+  #
+  # redis:
+  #   image: redis:7-alpine
+  #   ports:
+  #     - "6379:6379"
